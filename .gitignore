@@ -1,0 +1,27 @@
+# Binaries & compilation artifacts
+*.exe
+*.o
+*.out
+*.obj
+*.app
+build/
+bin/
+
+# Environment & IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
