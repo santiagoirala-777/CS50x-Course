@@ -49,7 +49,7 @@ Esta cadencia proyecta terminar el proyecto alrededor del 10 de abril de 2027 y 
 
 1. Abrir [Week 0 — Scratch](https://cs50.harvard.edu/x/2026/weeks/0/).
 2. Ver diez minutos de la lecture en inglés.
-3. Anotar en `00_Scratch/apuntes.md` tus palabras clave rápidas en la sección de captura en vivo.
+3. Anotar en `00_Scratch/00_Table_of_Contents.md` tus palabras clave rápidas en la sección de captura en vivo.
 
 ## Fuentes oficiales
 
