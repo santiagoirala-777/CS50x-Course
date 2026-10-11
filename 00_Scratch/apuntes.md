@@ -1,71 +1,69 @@
 # 🎓 CS50x 2026 — Week 0: Scratch & Computational Thinking
 
-> **Profesor:** David J. Malan (Harvard University)  
-> **Última sesión:** `08/10/2026` · **Progreso actual:** `00:00` → [`29:54` (`start=1794`)](https://video.cs50.io/UuIEbpQms8o?start=1794) *(Pausado justo al empezar **ASCII**)*  
-> **Links rápidos:** [📺 Video Oficial (Retomar en 29:54)](https://video.cs50.io/UuIEbpQms8o?start=1794) · [📄 Lecture 0 Notes](https://cs50.harvard.edu/x/2026/notes/0/) · [🧩 Problem Set 0](https://cs50.harvard.edu/x/2026/psets/0/)
+> **Instructor:** David J. Malan (Harvard University)  
+> **Last Session:** `08/10/2026` · **Current Progress:** `00:00` → [`29:54` (`start=1794`)](https://video.cs50.io/UuIEbpQms8o?start=1794) *(Paused right at the start of **ASCII**)*  
+> **Quick Links:** [📺 Resume Lecture at 29:54](https://video.cs50.io/UuIEbpQms8o?start=1794) · [📄 Official Lecture 0 Notes](https://cs50.harvard.edu/x/2026/notes/0/) · [🧩 Problem Set 0](https://cs50.harvard.edu/x/2026/psets/0/)
 
 ---
 
-## ⚡ Inbox de Captura Rápida (Tus Keywords en Vivo)
+## ⚡ Live Quick-Capture Inbox (Your Raw Keywords)
 
 > [!TIP]
-> **Flujo de estudio sin perder ritmo:** Mientras mirás el video, **solo tirá acá abajo tus palabras clave o frases sueltas** (como hiciste el jueves). Cuando terminás tu bloque, me decís *"Tyler, actualizame el apunte"* y yo:
-> 1. Agrego los términos nuevos a la **Tabla de Contenidos / Glosario** de abajo.
-> 2. Redacto y diseño los **capítulos visuales completos** (con diagramas, tablas de bits, bloques de código y ejemplos de la clase) en la segunda mitad del documento.
+> **Fast Note-Taking Workflow:** While watching the lecture, **do not waste time formatting tables or writing long definitions**. Just drop your raw keywords, short phrases, or timestamps right below. When you finish your session, tell Tyler *"Format today's notes"* to automatically expand both the **Table of Contents** and the **Visual Study Chapters** below.
 
-- *(Anotá acá tus próximas palabras clave a partir del minuto `29:54` — ASCII, Unicode, RGB, Algorithms...)*
+- *(Drop your next raw keywords here starting from minute `29:54` — ASCII, Unicode, RGB, Algorithms...)*
 - 
 
 ---
 
-## 📑 1. Índice del Apunte & Tabla Maestra de Conceptos (`00:00` → `29:54`)
+## 📑 1. Table of Contents & Master Glossary (`00:00` → `29:54`)
 
-### Navegación por Capítulos del Apunte Visual
-1. [🚀 Welcome, AI & `chat.py` (Min. `00:00` – `14:25`)](#-capítulo-1-welcome-ai--tu-primer-chatbot-en-python-0000--1425)
-2. [🧠 Computer Science & Problem Solving (Min. `14:27` – `15:38`)](#-capítulo-2-qué-es-computer-science--computational-thinking-1427--1538)
-3. [✋ De Unary (`Base-1`) a Binary (`Base-2`) y Transistores (Min. `15:39` – `21:31`)](#-capítulo-3-unary-vs-binary-bits-y-transistores-1539--2131)
-4. [🔢 Cómo Cuentan las Computadoras: `Base-10` vs. `Base-2` (Min. `21:32` – `26:25`)](#-capítulo-4-matemática-posicional-decimal-base-10-vs-binario-base-2-2132--2625)
-5. [📦 Qué es un `Byte` (`8 Bits`) y por qué llega a `256` (Min. `26:26` – `29:54`)](#-capítulo-5-el-byte-8-bits-y-el-límite-de-256-combinaciones-2626--2954)
-6. [🎯 Autochequeo Rápido (Flash Review hasta min. `29:54`)](#-autochequeo-rápido-flash-review-0000--2954)
+### Visual Notebook Chapters
+1. [🚀 Chapter 1: Welcome, AI & Your First Python Chatbot (`00:00` – `14:25`)](#-chapter-1-welcome-ai--your-first-python-chatbot-0000--1425)
+2. [🧠 Chapter 2: Computer Science & Computational Thinking (`14:27` – `15:38`)](#-chapter-2-computer-science--computational-thinking-1427--1538)
+3. [✋ Chapter 3: Unary (`Base-1`) vs. Binary (`Base-2`), Bits & Transistors (`15:39` – `21:31`)](#-chapter-3-unary-base-1-vs-binary-base-2-bits--transistors-1539--2131)
+4. [🔢 Chapter 4: Positional Math — Decimal (`Base-10`) vs. Binary (`Base-2`) (`21:32` – `26:25`)](#-chapter-4-positional-math--decimal-base-10-vs-binary-base-2-2132--2625)
+5. [📦 Chapter 5: The `Byte` (`8 Bits`) & The `256` Limit (`26:26` – `29:54`)](#-chapter-5-the-byte-8-bits--the-256-limit-2626--2954)
+6. [🎯 Quick Self-Check (`Flash Review 00:00 → 29:54`)](#-quick-self-check-flash-review-0000--2954)
 
-### Glosario Rápido con Timestamp Directo
+### Master Concept Table & Timestamps
 
 | Content / Term | Meaning (Core Definition) | Video Timestamp |
 | :--- | :--- | :---: |
-| **AI & Fundamentals** | AI eliminates human bottlenecks, but mastering fundamentals makes you the **driver/pilot** of code. | [02:25](https://video.cs50.io/UuIEbpQms8o?start=145) |
-| **IDE (`VS Code`)** | *Integrated Development Environment*: the workspace (editor + terminal) where programmers write and run code. | [04:48](https://video.cs50.io/UuIEbpQms8o?start=288) |
-| **API** | *Application Programming Interface*: mechanism to connect your code to third-party services (like OpenAI's `gpt-5`). | [06:23](https://video.cs50.io/UuIEbpQms8o?start=383) |
-| **Rubber Duck Debugging** | Explaining your code line by line out loud to a rubber duck (`cs50.ai`) to uncover your own logic bugs. | [12:30](https://video.cs50.io/UuIEbpQms8o?start=750) |
-| **Computer Science** | **The study of information** (how to represent it and how to process it) to solve problems. | [14:27](https://video.cs50.io/UuIEbpQms8o?start=867) |
+| **AI & Fundamentals** | AI removes human bottlenecks, but mastering CS fundamentals keeps you in the **driver's seat ("the pilot")**. | [02:25](https://video.cs50.io/UuIEbpQms8o?start=145) |
+| **IDE (`VS Code`)** | *Integrated Development Environment*: the workspace (code editor + terminal) where programmers write and run code. | [04:48](https://video.cs50.io/UuIEbpQms8o?start=288) |
+| **API** | *Application Programming Interface*: mechanism to connect your code to external services (such as OpenAI's `gpt-5`). | [06:23](https://video.cs50.io/UuIEbpQms8o?start=383) |
+| **Rubber Duck Debugging** | Verbalizing your code line by line to a rubber duck (`cs50.ai`) to spot your own logical bugs. | [12:30](https://video.cs50.io/UuIEbpQms8o?start=750) |
+| **Computer Science** | **The study of information** — how to represent it and how to process it — applied to problem-solving. | [14:27](https://video.cs50.io/UuIEbpQms8o?start=867) |
 | **Computational Thinking** | Applying ideas from computer science to solve real-world problems methodically. | [14:31](https://video.cs50.io/UuIEbpQms8o?start=871) |
 | **Unary Notation (`Base-1`)** | Counting system with only **1 symbol** (e.g., human fingers where each raised finger simply adds $+1$). | [15:39](https://video.cs50.io/UuIEbpQms8o?start=939) |
-| **Binary System (`Base-2`)** | Counting system with **2 digits (`0` and `1`)**, matching physical electricity (`OFF` and `ON`). | [16:09](https://video.cs50.io/UuIEbpQms8o?start=969) |
-| **Bit (`Binary Digit`)** | Contraction of **bi**nary digi**t**: a single `0` or `1` (the smallest unit of data in computing). | [17:49](https://video.cs50.io/UuIEbpQms8o?start=1069) |
+| **Binary System (`Base-2`)** | Positional counting system with **2 digits (`0` and `1`)**, mapping directly to electricity (`OFF` and `ON`). | [16:09](https://video.cs50.io/UuIEbpQms8o?start=969) |
+| **Bit (`Binary Digit`)** | Portmanteau of **bi**nary digi**t**: a single `0` or `1` (the smallest unit of information in computing). | [17:49](https://video.cs50.io/UuIEbpQms8o?start=1069) |
 | **Transistors** | Microscopic physical switches inside CPUs/memory (millions/billions of "tiny light bulbs") that turn `ON` (`1`) or `OFF` (`0`). | [19:27](https://video.cs50.io/UuIEbpQms8o?start=1167) |
 | **Decimal System (`Base-10`)** | Human counting system with **10 digits (`0` → `9`)** using powers of 10 ($10^0, 10^1, 10^2 \dots$). | [21:32](https://video.cs50.io/UuIEbpQms8o?start=1292) / [23:00](https://video.cs50.io/UuIEbpQms8o?start=1380) |
 | **Binary Powers ($2^n$)** | Positional columns in Base-2 use **powers of 2** ($2^0=1,\, 2^1=2,\, 2^2=4,\, 2^3=8 \dots$) because there are only 2 symbols. | [23:42](https://video.cs50.io/UuIEbpQms8o?start=1422) |
-| **Integer Overflow (3 bits)** | Running out of bits: if you only have 3 bits (max `111` = $7$) and try to count `8` (`1000`), the 3 bits roll back to `000`. | [25:26](https://video.cs50.io/UuIEbpQms8o?start=1526) |
+| **Integer Overflow (3 bits)** | Running out of bits: if you only have 3 bits (max `111` = $7$) and try to store `8` (`1000`), the 3 bits roll back to `000`. | [25:26](https://video.cs50.io/UuIEbpQms8o?start=1526) |
 | **Byte (`8 Bits`)** | Standard unit of **8 bits grouped together** ($1\text{ Byte} = 8\text{ Bits}$). | [26:26](https://video.cs50.io/UuIEbpQms8o?start=1586) |
-| **$8\text{ Bits} = 2^8 = 256$** | One byte (`8 bits`) can represent **$256$ possible values**: from `0` (`00000000`) up to `255` (`11111111`). | [27:11](https://video.cs50.io/UuIEbpQms8o?start=1631) / [27:42](https://video.cs50.io/UuIEbpQms8o?start=1662) |
+| **$8\text{ Bits} = 2^8 = 256$** | One byte (`8 bits`) represents **$256$ total possibilities**: from `0` (`00000000`) up to `255` (`11111111`). | [27:11](https://video.cs50.io/UuIEbpQms8o?start=1631) / [27:42](https://video.cs50.io/UuIEbpQms8o?start=1662) |
 
 ---
 ---
 
-# 📖 2. Apunte Visual Desarrollado (Clase 0 — Paso a Paso)
+# 📖 2. Visual Study Notebook (Lecture 0 — Step by Step)
 
 ---
 
-## 🚀 Capítulo 1: Welcome, AI & Tu Primer Chatbot en Python (`00:00` – `14:25`)
+## 🚀 Chapter 1: Welcome, AI & Your First Python Chatbot (`00:00` – `14:25`)
 
-### 1.1. La IA no reemplaza los fundamentos: te convierte en el Piloto ([02:25](https://video.cs50.io/UuIEbpQms8o?start=145))
-David Malan arranca explicando por qué aprender **Computer Science** desde cero sigue siendo decisivo en la era de la Inteligencia Artificial:
-- La IA elimina los **cuellos de botella humanos** (*human bottlenecks*), pero si no entendés qué hace el código por debajo, sos un pasajero a ciegas.
-- Dominar los fundamentos te convierte en el **conductor / piloto** (*the driver, the pilot*): usás la IA como multiplicador de fuerza mientras vos diseñás y controlás el sistema.
+### 1.1. AI Does Not Replace Fundamentals — It Makes You the Pilot ([02:25](https://video.cs50.io/UuIEbpQms8o?start=145))
+David Malan opens the course by addressing why learning **Computer Science** from scratch matters more than ever in the age of Artificial Intelligence:
+- AI eliminates **human bottlenecks**, making code generation faster, but if you don't understand how software works under the hood, you are just a passenger.
+- Mastering the fundamentals makes you **the driver, the pilot, an empowered creator**: you use AI as a force multiplier while remaining in full control of the architecture and logic.
 
-### 1.2. Demo en vivo: VS Code + OpenAI API en 10 líneas (`chat.py`) ([04:48](https://video.cs50.io/UuIEbpQms8o?start=288))
-Antes de bajar a los bits, Malan muestra hacia dónde va el curso construyendo un chatbot real en **Visual Studio Code** (un **IDE** — *Integrated Development Environment*) que se conecta a la **API** (*Application Programming Interface*) de OpenAI en tres pasos evolutivos:
+### 1.2. Live Demo: VS Code + OpenAI API in 10 Lines (`chat.py`) ([04:48](https://video.cs50.io/UuIEbpQms8o?start=288))
+To give a preview of what you will be able to build later in the course, Malan opens **Visual Studio Code** (an **IDE** — *Integrated Development Environment*) and writes a Python script (`chat.py`) that connects to OpenAI's **API** (*Application Programming Interface*) in two quick evolutions:
 
-#### Paso A — Pregunta fija (*Hardcoded Input*)
+#### Step A — Hardcoded Prompt
 ```python
 from openai import OpenAI
 
@@ -79,8 +77,8 @@ response = client.responses.create(
 print(response.output_text)
 ```
 
-#### Paso B — Pregunta interactiva del usuario (`input()`) + `system_prompt` ([08:26](https://video.cs50.io/UuIEbpQms8o?start=506) – [10:36](https://video.cs50.io/UuIEbpQms8o?start=636))
-Para que el programa no responda siempre lo mismo, se guarda lo que escribe el usuario en la variable `user_prompt` y se le da personalidad con `system_prompt`:
+#### Step B — Dynamic `user_prompt` + `system_prompt` ([08:26](https://video.cs50.io/UuIEbpQms8o?start=506) – [10:36](https://video.cs50.io/UuIEbpQms8o?start=636))
+By adding `input("Prompt: ")`, the program waits for the user's question in the terminal, and `system_prompt` instructs the model how to behave:
 
 ```python
 from openai import OpenAI
@@ -99,92 +97,92 @@ response = client.responses.create(
 print(response.output_text)
 ```
 
-### 1.3. Rubber Duck Debugging & el Pato Oficial de CS50 (`cs50.ai`) ([12:30](https://video.cs50.io/UuIEbpQms8o?start=750))
+### 1.3. Rubber Duck Debugging & `cs50.ai` ([12:30](https://video.cs50.io/UuIEbpQms8o?start=750))
 > [!IMPORTANT]
-> **¿Qué es *Rubber Duck Debugging*?**  
-> Cuando tenés un error (*bug*) en tu código y no tenés a quién preguntarle, tener un **pato de goma** en el escritorio y explicarle en voz alta, línea por línea, qué se supone que hace tu programa hace que tu propio cerebro escuche la contradicción lógica y descubra el error solo.
+> **What is *Rubber Duck Debugging*?**  
+> In software engineering, when you hit a bug and don't have a colleague nearby, you place a **rubber duck** on your desk and explain your code to it out loud, line by line. Verbalizing what your code *actually* does (versus what you *think* it does) forces your brain to catch the logic flaw.
 >
-> **Regla de Honestidad Académica de CS50x:** Está **prohibido** usar ChatGPT, Gemini o Claude para resolver los *Problem Sets* del curso, pero está **100% permitido y recomendado** usar [**`cs50.ai` (CS50 Duck)**](https://cs50.ai/), la IA oficial entrenada por Harvard que te guía como un tutor sin regalarte la respuesta hecha.
+> **CS50x Academic Honesty Rule:** Using external AI tools (ChatGPT, Gemini, Claude, Copilot) to solve CS50 problem sets is **not allowed**, but using Harvard's official AI tutor [**`cs50.ai` (CS50 Duck)**](https://cs50.ai/) is **100% allowed and encouraged**.
 
 ---
 
-## 🧠 Capítulo 2: ¿Qué es Computer Science & Computational Thinking? (`14:27` – `15:38`)
+## 🧠 Chapter 2: Computer Science & Computational Thinking (`14:27` – `15:38`)
 
-En el minuto [`14:27`](https://video.cs50.io/UuIEbpQms8o?start=867), Malan define el corazón de toda la materia con dos conceptos fundamentales que vos anotaste en vivo:
+At [`14:27`](https://video.cs50.io/UuIEbpQms8o?start=867), Malan defines the core concepts of the entire course:
 
-- **Computer Science (*Ciencia de la Computación*):** Es el **estudio de la información** (*the study of information*) — cómo representarla y cómo procesarla — aplicado a **resolver problemas** (*problem-solving*).
-- **Computational Thinking (*Pensamiento Computacional*):** Es aplicar las ideas y la lógica de la ciencia de la computación a problemas de la vida real o de cualquier disciplina.
+- **Computer Science:** **The study of information** — how do you represent it, and how do you process it?
+- **Computational Thinking:** The application of ideas from computer science to solve problems of interest in the real world.
 
-### El Modelo Universal de Resolución de Problemas (`Input → Algorithm → Output`) ([14:59](https://video.cs50.io/UuIEbpQms8o?start=899))
+### The Universal Problem-Solving Model (`Input → Algorithm → Output`) ([14:59](https://video.cs50.io/UuIEbpQms8o?start=899))
 
-Todo problema en informática se reduce a tres partes:
+Every computational problem boils down to three components:
 
 ```mermaid
 flowchart LR
-    IN["📥 INPUT<br/>(El problema / datos de entrada)"] --> BOX["⬛ BLACK BOX (Algorithm)<br/>(El código paso a paso que procesa la información)"]
-    BOX --> OUT["📤 OUTPUT<br/>(La solución / resultado)"]
+    IN["📥 INPUT<br/>(The problem to solve / raw data)"] --> BOX["⬛ BLACK BOX (Algorithm)<br/>(Step-by-step instructions that process data)"]
+    BOX --> OUT["📤 OUTPUT<br/>(The solution / result)"]
 ```
 
 > [!NOTE]
-> **La primera pregunta del curso:** Antes de poder meter datos en el `INPUT` o sacar resultados en el `OUTPUT`, **¿cómo acordamos representar la información (números, letras, colores, imágenes, audio) adentro de una máquina que solo tiene electricidad?**
+> **The First Big Question:** Before we can feed an `INPUT` into a computer or get an `OUTPUT` back, **how do we agree to represent information (numbers, letters, colors, images, video, audio) inside a machine that only understands electricity?**
 
 ---
 
-## ✋ Capítulo 3: Unary vs. Binary, Bits y Transistores (`15:39` – `21:31`)
+## ✋ Chapter 3: Unary (`Base-1`) vs. Binary (`Base-2`), Bits & Transistors (`15:39` – `21:31`)
 
-### 3.1. Unary Notation (`Base-1`) — Contar con los dedos a lo humano ([15:39](https://video.cs50.io/UuIEbpQms8o?start=939))
-Cuando contamos personas en un aula con una mano de forma tradicional, usamos el **sistema unario (`Base-1`)**:
-- Tenemos **un único símbolo** (un dedo levantado = $+1$).
-- Con **5 dedos** en una mano, solo podemos contar como máximo hasta **`5`** (`1, 2, 3, 4, 5`), porque no importa el orden en que levantes los dedos: cada dedo vale siempre `1`.
+### 3.1. Unary Notation (`Base-1`) — Counting on Human Fingers ([15:39](https://video.cs50.io/UuIEbpQms8o?start=939))
+When humans count on one hand the traditional way, we use **unary notation (`Base-1`)**:
+- There is only **one symbol** (a raised finger = $+1$).
+- With **5 fingers** on one hand, you can only count up to **`5`** (`1, 2, 3, 4, 5`), because order doesn't matter—each finger always has a weight of `1`.
 
-### 3.2. Binary System (`Base-2`) — Por qué las computadoras cuentan distinto ([16:09](https://video.cs50.io/UuIEbpQms8o?start=969))
-Si en vez de darle a cada dedo el valor fijo de `1`, tenemos en cuenta el **patrón exacto de qué dedos están abajo (`0`) y cuáles están arriba (`1`)**, pasamos al **sistema binario (`Base-2`)**:
-- Con los mismos **5 dedos** de una sola mano, ya no estás limitado a contar hasta `5`: podés contar desde **`0` hasta `31`** ($2^5 = 32$ combinaciones distintas).
+### 3.2. Binary System (`Base-2`) — How Computers Count Higher ([16:09](https://video.cs50.io/UuIEbpQms8o?start=969))
+If instead of treating every finger as $+1$, we pay attention to the **exact pattern of which fingers are down (`0`) and which fingers are up (`1`)**, we switch to the **binary system (`Base-2`)**:
+- Using the exact same **5 fingers** on one hand, you can now count from **`0` all the way up to `31`** ($2^5 = 32$ distinct patterns)!
 
-| Sistema | Nombre en inglés | Símbolos disponibles | Máximo con 5 dedos |
-| :--- | :--- | :---: | :---: |
-| **Unario (`Base-1`)** | *Unary notation* | `1` solo símbolo (marca/dedo) | **Hasta `5`** |
-| **Binario (`Base-2`)** | *Binary system* | `2` símbolos (`0` y `1`) | **Hasta `31`** ($32$ estados contando el `0`) |
+| Counting System | Base | Symbols Used | Max Value with 5 Fingers |
+| :--- | :---: | :---: | :---: |
+| **Unary Notation** | `Base-1` | `1` symbol (tally mark / finger) | **`5`** |
+| **Binary System** | `Base-2` | `2` symbols (`0` and `1`) | **`31`** ($32$ total states including `0`) |
 
-### 3.3. ¿Qué es un `Bit` y por qué existen los `Transistors`? ([17:49](https://video.cs50.io/UuIEbpQms8o?start=1069) – [19:27](https://video.cs50.io/UuIEbpQms8o?start=1167))
+### 3.3. What is a `Bit` & Why Do Computers Use `Transistors`? ([17:49](https://video.cs50.io/UuIEbpQms8o?start=1069) – [19:27](https://video.cs50.io/UuIEbpQms8o?start=1167))
 
-- **`Bit` = `Bi`nary Digi`t` (*Dígito Binario*):** Es la unidad mínima de información en computación. Solo puede valer **`0`** o **`1`**.
-- **¿Por qué las computadoras usan `0` y `1` en vez de `0` al `9`?**  
-  Porque lo único que enchufamos a la pared o guardamos en una batería es **electricidad** (electrones fluyendo). Físicamente es muchísimo más fácil y confiable distinguir dos estados extremos: **no pasa corriente (`OFF = 0`)** o **sí pasa corriente (`ON = 1`)**.
-- **La analogía de las lamparitas y los `Transistors` ([19:27](https://video.cs50.io/UuIEbpQms8o?start=1167)):**
-  > *"Computers don't have little light bulbs inside, but they have millions (and billions) of tiny little switches called **transistors**."*  
-  Adentro de tu CPU, de tu memoria RAM o de tu teléfono hay miles de millones de interruptores microscópicos llamados **transistores**:
+- **`Bit` = `Bi`nary Digi`t`:** The smallest unit of information in a computer. A single bit can only hold one of two values: **`0`** or **`1`**.
+- **Why only `0` and `1` instead of `0` through `9`?**  
+  Because computers run on **electricity** (electrons flowing from a wall outlet or battery). Physically, it is much easier and more reliable for hardware to distinguish between two extreme electrical states: **electricity is NOT flowing (`OFF = 0`)** vs. **electricity IS flowing (`ON = 1`)**.
+- **The Light Bulb Analogy & `Transistors` ([19:27](https://video.cs50.io/UuIEbpQms8o?start=1167)):**
+  > *"Computers don't have little light bulbs inside, but they have millions (and billions) of tiny little things called **transistors**."*  
+  Inside your CPU, RAM, and phone are billions of microscopic switches called **transistors**:
 
-| Estado físico del Transistor | Metáfora de la Lamparita | Valor del Bit |
+| Physical Transistor State | Light Bulb Metaphor | Bit Value |
 | :---: | :---: | :---: |
-| **Sin corriente / Apagado** | ⚫ `OFF` | **`0`** |
-| **Con corriente / Encendido** | 💡 `ON` | **`1`** |
+| **No charge / Switch Open** | ⚫ `OFF` | **`0`** |
+| **Charge flowing / Switch Closed** | 💡 `ON` | **`1`** |
 
 ---
 
-## 🔢 Capítulo 4: Matemática Posicional: Decimal (`Base-10`) vs. Binario (`Base-2`) (`21:32` – `26:25`)
+## 🔢 Chapter 4: Positional Math — Decimal (`Base-10`) vs. Binary (`Base-2`) (`21:32` – `26:25`)
 
-Con **1 sola lamparita (1 bit)** solo podés representar dos cosas: `0` (⚫) o `1` (💡). ¿Cómo hacés para contar hasta `2`, `3`, `7` o más? **Usando múltiples bits y dándole un peso posicional a cada columna**, igual que hacemos en matemática desde la primaria.
+A single light bulb (`1 bit`) can only represent two states: `0` (⚫) or `1` (💡). To count higher (`2, 3, 4, 7...`), we group multiple bits together and assign a **positional weight** to each column—just like we do in everyday math.
 
-### 4.1. Cómo funciona nuestro sistema humano: Decimal (`Base-10`) ([21:32](https://video.cs50.io/UuIEbpQms8o?start=1292) – [23:00](https://video.cs50.io/UuIEbpQms8o?start=1380))
-En el sistema decimal tenemos **10 dígitos (`0, 1, 2, 3, 4, 5, 6, 7, 8, 9`)**.  
-Por eso, cuando escribís en pizarra los símbolos `1`, `2`, `3`, tu cerebro no ve tres dígitos sueltos: ve **ciento veintitrés ($123$)** porque cada columna es una **potencia de base 10** ($10^2, 10^1, 10^0$):
+### 4.1. How Humans Count: The Decimal System (`Base-10`) ([21:32](https://video.cs50.io/UuIEbpQms8o?start=1292) – [23:00](https://video.cs50.io/UuIEbpQms8o?start=1380))
+In the **decimal system (`Base-10`)**, we have **10 digits (`0` → `9`)**.  
+When you see the symbols `123`, you immediately read it as *one hundred twenty-three* because each column represents a **power of 10** ($10^2, 10^1, 10^0$):
 
-| Potencia de 10 | $10^2$ *(Centenas)* | $10^1$ *(Decenas)* | $10^0$ *(Unidades)* | Cálculo total |
+| Power of 10 | $10^2$ *(Hundreds)* | $10^1$ *(Tens)* | $10^0$ *(Ones)* | Positional Math |
 | :---: | :---: | :---: | :---: | :--- |
-| **Peso de la columna** | **`100`** | **`10`** | **`1`** | |
-| **Dígitos de `123`** | `1` | `2` | `3` | $(100 \times 1) + (10 \times 2) + (1 \times 3) = \mathbf{123}$ |
+| **Column Weight** | **`100`** | **`10`** | **`1`** | |
+| **Digits of `123`** | `1` | `2` | `3` | $(100 \times 1) + (10 \times 2) + (1 \times 3) = \mathbf{123}$ |
 
-### 4.2. Cómo funciona el sistema de la computadora: Binario (`Base-2`) ([23:42](https://video.cs50.io/UuIEbpQms8o?start=1422))
-Las computadoras usan exactamente la misma lógica posicional, pero como **solo tienen 2 símbolos (`0` y `1`)**, en vez de potencias de $10$ usan **potencias de $2$** ($2^2, 2^1, 2^0 \dots$):
+### 4.2. How Computers Count: The Binary System (`Base-2`) ([23:42](https://video.cs50.io/UuIEbpQms8o?start=1422))
+Computers use the **exact same positional math**, except because they only have **2 symbols (`0` and `1`)**, their columns use **powers of 2** ($2^2, 2^1, 2^0 \dots$) instead of powers of 10:
 
-| Potencia de 2 | $2^2$ | $2^1$ | $2^0$ |
+| Power of 2 | $2^2$ | $2^1$ | $2^0$ |
 | :---: | :---: | :---: | :---: |
-| **Peso de la columna** | **`4`** | **`2`** | **`1`** |
+| **Column Weight** | **`4`** | **`2`** | **`1`** |
 
-Mirá cómo se arman todos los números del **`0` al `7`** usando **3 lamparitas (3 bits)**:
+Here is how **3 light bulbs (`3 bits`)** represent every number from **`0` to `7`**:
 
-| Columna `4` ($2^2$) | Columna `2` ($2^1$) | Columna `1` ($2^0$) | Estado de las 3 Lamparitas | Suma Posicional | Número Decimal |
+| `4` Place ($2^2$) | `2` Place ($2^1$) | `1` Place ($2^0$) | 3 Light Bulbs | Positional Addition | Decimal Value |
 | :---: | :---: | :---: | :---: | :--- | :---: |
 | `0` | `0` | `0` | ⚫ ⚫ ⚫ | $0 + 0 + 0$ | **`0`** |
 | `0` | `0` | `1` | ⚫ ⚫ 💡 | $0 + 0 + 1$ | **`1`** |
@@ -193,81 +191,85 @@ Mirá cómo se arman todos los números del **`0` al `7`** usando **3 lamparitas
 | `1` | `0` | `0` | 💡 ⚫ ⚫ | $4 + 0 + 0$ | **`4`** |
 | `1` | `0` | `1` | 💡 ⚫ 💡 | $4 + 0 + 1$ | **`5`** |
 | `1` | `1` | `0` | 💡 💡 ⚫ | $4 + 2 + 0$ | **`6`** |
-| `1` | `1` | `1` | 💡 💡 💡 | $4 + 2 + 1$ | **`7`** *(Máximo con 3 bits)* |
+| `1` | `1` | `1` | 💡 💡 💡 | $4 + 2 + 1$ | **`7`** *(Max with 3 bits)* |
 
-### 4.3. ¿Qué pasa si querés representar el `8`? (Necesitás un 4º bit o sufrís *Overflow*) ([25:26](https://video.cs50.io/UuIEbpQms8o?start=1526))
-- Con 3 bits prendidos al máximo (`111`), llegaste a **`7`**, que nos da **$8$ combinaciones totales** ($2^3 = 8$, contando del `0` al `7`).
-- Para representar el número **`8`**, necesitás agregar una cuarta columna a la izquierda ($2^3 = 8$), quedando **`1000`** (`8 + 0 + 0 + 0 = 8`).
-- ⚠️ **Error clásico en programación (*Overflow*):** Si la computadora solo reservó **3 bits de memoria** y le sumás `1` al `7` (`111`), el `1` de la columna del `8` no tiene dónde guardarse, se pierde, y las 3 lamparitas quedan en **`000` (vuelve a `0` por error)**.
+### 4.3. What If You Want to Count to `8`? (Adding a 4th Bit vs. *Overflow*) ([25:26](https://video.cs50.io/UuIEbpQms8o?start=1526))
+- With 3 bits all turned `ON` (`111`), the highest number you can reach is **`7`**, giving **$8$ total combinations** ($2^3 = 8$, counting `0` through `7`).
+- To represent **`8`**, you need a 4th bit on the left ($2^3 = 8$), written as **`1000`** ($8 + 0 + 0 + 0 = 8$).
+- ⚠️ **Integer Overflow Bug:** If a program only allocates **3 bits of memory** and tries to add $+1$ to `7` (`111`), there is nowhere to store the `1` in the `8`s column—so the 3 bits wrap all the way back around to **`000` (`0`)**!
 
 ---
 
-## 📦 Capítulo 5: El `Byte` (`8 Bits`) y el Límite de `256` Combinaciones (`26:26` – `29:54`)
+## 📦 Chapter 5: The `Byte` (`8 Bits`) & The `256` Limit (`26:26` – `29:54`)
 
-Como 1 solo bit o 3 bits se quedan cortos enseguida, la unidad estándar en todas las computadoras es el **Byte**:
+Because a single bit (or even 3 bits) is too small to be useful on its own, computers standardize memory around the **Byte**:
 
 $$\mathbf{1\text{ Byte} = 8\text{ Bits}}$$
 
-### 5.1. La Grilla Visual de 1 Byte (Las 8 columnas de potencias de 2)
-Cada byte tiene **8 casillas**, que van desde $2^0 = 1$ (derecha) hasta $2^7 = 128$ (izquierda):
+### 5.1. Visual Grid of 1 Byte (The 8 Powers-of-2 Columns)
+A single byte has **8 bit positions**, weighted from $2^0 = 1$ (rightmost) to $2^7 = 128$ (leftmost):
 
-| Potencia | $2^7$ | $2^6$ | $2^5$ | $2^4$ | $2^3$ | $2^2$ | $2^1$ | $2^0$ | Valor Decimal |
+| Power of 2 | $2^7$ | $2^6$ | $2^5$ | $2^4$ | $2^3$ | $2^2$ | $2^1$ | $2^0$ | Decimal Total |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Peso de columna** | **`128`** | **`64`** | **`32`** | **`16`** | **`8`** | **`4`** | **`2`** | **`1`** | — |
-| **Mínimo (`Todo OFF`)** | `0` | `0` | `0` | `0` | `0` | `0` | `0` | `0` | **`0`** |
-| **Ejemplo: Número `5`** | `0` | `0` | `0` | `0` | `0` | `1` | `0` | `1` | **`5`** ($4 + 1$) |
-| **Máximo (`Todo ON`)** | `1` | `1` | `1` | `1` | `1` | `1` | `1` | `1` | **`255`** ($128+64+32+16+8+4+2+1$) |
+| **Place Value** | **`128`** | **`64`** | **`32`** | **`16`** | **`8`** | **`4`** | **`2`** | **`1`** | — |
+| **Minimum (`All OFF`)** | `0` | `0` | `0` | `0` | `0` | `0` | `0` | `0` | **`0`** |
+| **Example: Number `5`** | `0` | `0` | `0` | `0` | `0` | `1` | `0` | `1` | **`5`** ($4 + 1$) |
+| **Maximum (`All ON`)** | `1` | `1` | `1` | `1` | `1` | `1` | `1` | `1` | **`255`** ($128+64+32+16+8+4+2+1$) |
 
-### 5.2. La Regla de Oro que anotaste: `8 Bits = 256 (2^8)` ([27:11](https://video.cs50.io/UuIEbpQms8o?start=1631) – [27:42](https://video.cs50.io/UuIEbpQms8o?start=1662))
+### 5.2. The Golden Rule: Why `8 Bits = 256 (2^8)` Possibilities ([27:11](https://video.cs50.io/UuIEbpQms8o?start=1631) – [27:42](https://video.cs50.io/UuIEbpQms8o?start=1662))
 
 > [!IMPORTANT]
-> **¿Por qué el número más alto de 1 Byte es `255`, pero hay `256` posibilidades?**  
-> - Porque empezamos a contar desde el **`0`** (`00000000`), no desde el `1`.
-> - Matemáticamente: con $n$ bits tenés **$2^n$ combinaciones totales**, y el número máximo representable (si empezás en $0$) es **$2^n - 1$**:
->   - **3 bits:** $2^3 = \mathbf{8}$ combinaciones $\rightarrow$ cuenta del **`0` al `7`**.
->   - **8 bits (1 Byte):** $2^8 = \mathbf{256}$ combinaciones $\rightarrow$ cuenta del **`0` al `255`**.
->   - **32 bits (4 Bytes):** $2^{32} \approx \mathbf{4.000.000.000}$ ($\sim 4\text{ billion}$ combinaciones).
->   - **64 bits (8 Bytes):** $2^{64} \approx \mathbf{1,84 \times 10^{19}}$ combinaciones.
+> **Why is the maximum number in 1 Byte `255`, if $2^8 = 256$?**  
+> - Because computers start counting at **`0`** (`00000000`), not `1`!
+> - Formula for **$n$ bits**:
+>   - **Total possible patterns:** $2^n$
+>   - **Highest positive integer (starting from 0):** $2^n - 1$
+> - **Common Hardware Sizes:**
+>   - **3 bits:** $2^3 = \mathbf{8}$ possibilities (`0` to `7`).
+>   - **8 bits (1 Byte):** $2^8 = \mathbf{256}$ possibilities (`0` to `255`).
+>   - **32 bits (4 Bytes):** $2^{32} \approx \mathbf{4\text{ billion}}$ possibilities (`4,294,967,296`).
+>   - **64 bits (8 Bytes):** $2^{64} \approx \mathbf{1.84 \times 10^{19}}$ possibilities.
 
 ---
 
-## 🎯 Autochequeo Rápido (Flash Review `00:00` → `29:54`)
+## 🎯 Quick Self-Check (`Flash Review 00:00 → 29:54`)
 
 <details>
-<summary><b>1. ¿Qué número decimal representa el byte <code>00001011</code>?</b> <i>(Click para ver respuesta)</i></summary>
+<summary><b>1. What decimal number does the byte <code>00001011</code> represent?</b> <i>(Click to reveal)</i></summary>
 
-Mirando las 4 últimas columnas (`8 | 4 | 2 | 1`): tenés prendidos el `8`, el `2` y el `1` $\rightarrow$ $8 + 2 + 1 = \mathbf{11}$.
+Looking at the last four columns (`8 | 4 | 2 | 1`), the `8`, `2`, and `1` bits are turned `ON` (`1`) $\rightarrow$ $8 + 2 + 1 = \mathbf{11}$.
 </details>
 
 <details>
-<summary><b>2. ¿Por qué 8 bits dan 256 combinaciones pero el número más alto es 255?</b> <i>(Click para ver respuesta)</i></summary>
+<summary><b>2. Why does 1 Byte have 256 combinations if its highest value is 255?</b> <i>(Click to reveal)</i></summary>
 
-Porque una de las $2^8 = 256$ combinaciones se usa para representar el **`0`** (`00000000`). Por lo tanto, el rango va de `0` a `255` ($2^8 - 1$).
+Because one of the $2^8 = 256$ combinations is used to represent **`0`** (`00000000`). Counting from `0` through `255` gives $256$ total values.
 </details>
 
 <details>
-<summary><b>3. ¿Qué diferencia física hay entre un Bit y un Transistor?</b> <i>(Click para ver respuesta)</i></summary>
+<summary><b>3. What is the difference between a Bit and a Transistor?</b> <i>(Click to reveal)</i></summary>
 
-El **Transistor** es el componente físico real (el interruptor microscópico de silicio dentro del chip que deja pasar o corta la electricidad). El **Bit** (`0` o `1`) es el valor lógico de información que ese transistor representa cuando está apagado (`0`) o encendido (`1`).
+A **Transistor** is the physical hardware switch inside the silicon chip that lets electricity flow (`ON`) or blocks it (`OFF`). A **Bit** (`0` or `1`) is the logical unit of information represented by that transistor's state.
 </details>
 
 ---
 
-## 🔜 Próxima Parada en el Video ([Minuto `29:54` — ASCII](https://video.cs50.io/UuIEbpQms8o?start=1794))
+## 🔜 Up Next in Lecture 0 ([Resume at `29:54` — ASCII](https://video.cs50.io/UuIEbpQms8o?start=1794))
 
-Justo donde dejaste pausado el video, Malan muestra en pantalla la letra **`A`** y pregunta:
+Right where you paused the video, Malan puts the capital letter **`A`** on the screen and asks:
 > *"How can the computer store a capital letter A if all we have are zeros and ones?"*
 
-En tus próximos 20–30 minutos vas a ver:
-1. **ASCII (`29:54`):** Cómo la letra `A` se guarda como el número `65` (`01000001`) y el mensaje `HI!` son 3 bytes (`72`, `73`, `33`).
-2. **Unicode:** Cómo pasamos de 8 bits a 16/32 bits para soportar todos los idiomas del mundo y los **emojis** (y por qué los tonos de piel de un emoji son varios códigos combinados).
-3. **RGB (`Red, Green, Blue`):** Cómo cada píxel de tu pantalla usa **3 bytes** (uno para rojo, uno para verde, uno para azul, de `0` a `255` cada uno).
-4. **Algorithms & Big-O (El ejemplo de la Guía Telefónica)** + **Pseudocode** + **Scratch**.
+In your next 20–30 minute session, you will cover:
+1. **ASCII (`29:54`):** Mapping letters to numbers (`A = 65 = 01000001`, `HI! = 72 73 33`).
+2. **Unicode:** Expanding beyond 8 bits (`16/32 bits`) to support every human language and **emojis** (including skin-tone modifiers).
+3. **RGB (`Red, Green, Blue`):** How 3 bytes (`0–255` each) represent every pixel's color on your screen.
+4. **Algorithms & Running Time (`Big-O`):** The famous Phone Book tear-in-half demo (Linear Search vs. Binary Search, $\log_2 n$).
+5. **Pseudocode & Scratch:** Functions, conditionals, boolean expressions, loops, and building your first visual program in MIT Scratch.
 
 ---
 
 <details>
-<summary>🗄️ Ver respaldo literal de tus apuntes originales del 08/10/2026 (Recuperados de <code>zT3r.md</code>)</summary>
+<summary>🗄️ Raw Backup of Your Original 08/10/2026 Notes (Recovered from VS Code Snapshot <code>zT3r.md</code>)</summary>
 
 ```markdown
 # Week 0 — Scratch
